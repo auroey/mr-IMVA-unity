@@ -36,7 +36,7 @@ This repository contains the full MRTK3 source alongside the Unity project, so a
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/auroey/mr-anatomy-education-mrtk3-cpp.git
 ```
 
 2. Open **Unity Hub** → **Add** → select `UnityProjects/MRTKDevTemplate` as the project folder.
