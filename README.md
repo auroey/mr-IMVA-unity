@@ -41,6 +41,8 @@ git clone https://github.com/auroey/mr-anatomy-education-mrtk3-cpp.git
 
 2. Open **Unity Hub** → **Add** → select `UnityProjects/MRTKDevTemplate` as the project folder.
 
+3. Open the secne in `.\Assets\Scenes\EmptyScene\my.unity` to enter the main scene.
+
 ### Online Dependencies
 
 The following packages are fetched from the Unity registry / GitHub on first open — a network connection is required:
