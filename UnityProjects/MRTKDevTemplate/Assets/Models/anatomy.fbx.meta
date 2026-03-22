@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: cf639f379e616534f890718c334ab011
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Abductor
+    second: {fileID: 2100000, guid: c5f18cf4bcef9ab49b7b0bfa87e5c5d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Adductor
+    second: {fileID: 2100000, guid: 4675d693f7d93754cb0ffd1f700be917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Articular capsule
+    second: {fileID: 2100000, guid: 943a904b926e5f143bd96642b90c1c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Biarticular
+    second: {fileID: 2100000, guid: 16cad4b697f55854e9e8017f94d62d43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone
+    second: {fileID: 2100000, guid: e70a8544a19a6f849baf7b94c3080a1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-1
+    second: {fileID: 2100000, guid: dc5c091146cad6c41a338dc18ca0fa71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-2
+    second: {fileID: 2100000, guid: 24fa51af8e2f727428743e5fd0bdec2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-3
+    second: {fileID: 2100000, guid: 4bce475210563e7498761e89fcc9d19e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-4
+    second: {fileID: 2100000, guid: 8230aa8fa0089c44c8d64b3d0c1fbb83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-5
+    second: {fileID: 2100000, guid: 0aa6d8110192f914c8b4014266dd0471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-6
+    second: {fileID: 2100000, guid: 496978310013564429f373462aca8279, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-7
+    second: {fileID: 2100000, guid: eab167d455d77234bae6a7ab99faa828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone-8
+    second: {fileID: 2100000, guid: cd9bea8e7a59f3445b8d875931e4aa39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi
+    second: {fileID: 2100000, guid: de325447ea8c79e4bbdf82bdfb5437d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-1
+    second: {fileID: 2100000, guid: 02f99a5dfcc7a8c44b528234c00b62c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-2
+    second: {fileID: 2100000, guid: 2e047866516d82947ba2b6bccd1a83f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-3
+    second: {fileID: 2100000, guid: 2b3ece991747c4543870065af41eef65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-4
+    second: {fileID: 2100000, guid: 074ddc31126b27a49a4c11a1d014064c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-5
+    second: {fileID: 2100000, guid: 8dc37496ef19df84fa21b1cc0d763a0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-6
+    second: {fileID: 2100000, guid: 625303649d952474387177bde06b84f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-7
+    second: {fileID: 2100000, guid: b27f6873c0a281d4691e99b832b0e4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bronchi-8
+    second: {fileID: 2100000, guid: 929123cf20b25224ea45a16591f4e4bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bursa
+    second: {fileID: 2100000, guid: d1b7dc45448977d428ae5a33a8261af0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cartilage
+    second: {fileID: 2100000, guid: b554a112353020b4b9771b3ad01d9eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dentine
+    second: {fileID: 2100000, guid: d40fde2e66f4a70429ccd8a801adc8b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Depressor
+    second: {fileID: 2100000, guid: 323294dca3cc30c4f8de9b751ff6ecaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Diaphragm
+    second: {fileID: 2100000, guid: 6338183b96967ac4e98a10001cc8ef91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ductus
+    second: {fileID: 2100000, guid: c65c732f9504b3c4799e9c88df01c342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extension
+    second: {fileID: 2100000, guid: a9ce356bd533f13498a662836f9cec96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extension hand_foot
+    second: {fileID: 2100000, guid: 9c967fe1d159bef40af36a5511ea0708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Extensor extremities
+    second: {fileID: 2100000, guid: a26ee12e4ce7c97499592d57432677f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: External rotation
+    second: {fileID: 2100000, guid: 04e413ed0f3dfe14eae386c425baa6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fascia
+    second: {fileID: 2100000, guid: c191913efa34be54f8793e847471b9d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flexion
+    second: {fileID: 2100000, guid: 840c9909968e8b34ca7fb52c6ff84984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flexion fingers
+    second: {fileID: 2100000, guid: 248a7c3836315b344b04ed56f897bbca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flexion hand_foot
+    second: {fileID: 2100000, guid: 2bdb0fd2afd738741848654b17e10f4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gallbladder
+    second: {fileID: 2100000, guid: c71f434d0986cd64d9e671de6c80e7ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gland
+    second: {fileID: 2100000, guid: 3bd6935fb56269047afbcf045bca87d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ingestion
+    second: {fileID: 2100000, guid: 26d9cb672b3ab674eb710829ec329d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Internal rotator
+    second: {fileID: 2100000, guid: 4ab9d570c95758a4fb229ca58e759dad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Intestine
+    second: {fileID: 2100000, guid: 8e3a42588e5e167499ecfb9ce3374162, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Levator
+    second: {fileID: 2100000, guid: 0e4cae3bb7dc5714e840ea0a03e007f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ligament
+    second: {fileID: 2100000, guid: c43e6cefee2ced34f88a5f3efaca16dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-1
+    second: {fileID: 2100000, guid: 6d2de9881e96b5448901852996085bfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-2
+    second: {fileID: 2100000, guid: a09935702d22bf342878a0b0e3d1ec35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-3
+    second: {fileID: 2100000, guid: 24456cc5a945b00449b8375d848a26a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-4
+    second: {fileID: 2100000, guid: 06a57dc51205eff4f89a7b5bd3f876f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-5
+    second: {fileID: 2100000, guid: fc309b56ec591d94cb01a044079af1cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-6
+    second: {fileID: 2100000, guid: 06c6aebfb7b2b424c938792bd6326685, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-7
+    second: {fileID: 2100000, guid: fcf3c4be31a5842409257f65320c4723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-8
+    second: {fileID: 2100000, guid: eb95b2bdc52697842ac458f0e66d5498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-9
+    second: {fileID: 2100000, guid: 389538de593d8154ea111ccc410667a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lung-base
+    second: {fileID: 2100000, guid: 79ba16f4e4300c14cb5a3089957dfae0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masticator
+    second: {fileID: 2100000, guid: a5fc4fc264fca314c9bb1602ccd184cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mucosa
+    second: {fileID: 2100000, guid: 48d59313166c3d5448cdda3592a26b5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nucleus
+    second: {fileID: 2100000, guid: c8dfc43527c971d45aad1697f0bb209f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orbicularis_Constrictor
+    second: {fileID: 2100000, guid: 6f082c626f68aba4fb3adceb90299934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ
+    second: {fileID: 2100000, guid: fa6fd8afe0780e144b89f84dbd3ac7b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-1
+    second: {fileID: 2100000, guid: 576f09fe975932945b32f30158599825, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-2
+    second: {fileID: 2100000, guid: 5070b604883515a4380aee91f309b974, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-3
+    second: {fileID: 2100000, guid: b4a339ee286f8084e844d384a87108a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-4
+    second: {fileID: 2100000, guid: 6d541ccca4c1cac439e4660c1eb32d65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-5
+    second: {fileID: 2100000, guid: ddab32149148a1149a84448c02fe635d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-6
+    second: {fileID: 2100000, guid: 4d5078463a7315c43abc608c7c592468, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-7
+    second: {fileID: 2100000, guid: e942c6b2bb054014aa4fdebc07ee8075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Organ-8
+    second: {fileID: 2100000, guid: 48040303541dafc48ab4a47860ed8964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Peritoneum
+    second: {fileID: 2100000, guid: da5cb1c4260c8fd4983fb1f09a34b07c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Phonation
+    second: {fileID: 2100000, guid: 4bb16409c626c2a429c792a2bb0ebbae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Superficial
+    second: {fileID: 2100000, guid: a5d8955c56f9b4b4591e1e68addeb248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture
+    second: {fileID: 2100000, guid: a7fd62bc2730da34c8a13785d18dcdfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-1
+    second: {fileID: 2100000, guid: 302e40dc70a251749b901ab9ac78773c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-2
+    second: {fileID: 2100000, guid: 0cc640e553b24704bb995a8fe9838d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-3
+    second: {fileID: 2100000, guid: 3f4426719f95ea540a2c3ce2a2384eb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-4
+    second: {fileID: 2100000, guid: 3c1694bca304a874b9bcba99dfb8f503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-5
+    second: {fileID: 2100000, guid: 6e739ae9273e68d43876d73b21cd8830, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-6
+    second: {fileID: 2100000, guid: fb163fcbdda1a9c4991cea3fa0f8f13e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suture-7
+    second: {fileID: 2100000, guid: 40f2f2999a7d5bd4fb768c2cd6d52676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth
+    second: {fileID: 2100000, guid: 5a275e2b94d339a4dbdf595e74f0c09c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth-roots
+    second: {fileID: 2100000, guid: 1189342ed37c54a46b9355911effa821, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tendon
+    second: {fileID: 2100000, guid: 7d5a7b41c60f5f5499595b68d70f0269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trapezius
+    second: {fileID: 2100000, guid: 669068deafea3ed4c82493ee6a68b07a, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

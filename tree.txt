@@ -1,0 +1,315 @@
+MRTK/ (Mixed Reality Toolkit 3 - Unity 2021.3.45f2)
+?
+??? org.mixedrealitytoolkit.core/                  # [Core] Base interfaces & utilities (v3.3.0-dev)
+?   ??? Camera/                                    # Camera utilities
+?   ??? Configuration/                             # Configuration system
+?   ??? Data/                                      # Core data structures
+?   ??? Editor/                                    # Editor extensions
+?   ??? Experimental/                              # Experimental features
+?   ??? Interactables/                             # Interactable base classes
+?   ??? Interactors/                               # Interactor base classes
+?   ??? Subsystems/                                # Subsystem framework
+?   ??? Tests/                                     # Unit tests
+?   ??? Utilities/                                 # Utility functions
+?
+??? org.mixedrealitytoolkit.input/                 # [Input] XRI extensions / hand tracking / input simulation (v3.3.0-dev)
+?   ??? Assets/                                    # Input-related assets
+?   ??? Controllers/                               # Custom controllers
+?   ??? Editor/                                    # Editor extensions
+?   ??? Experimental/                              # Experimental input features
+?   ??? InteractionModes/                          # Interaction mode management
+?   ??? Interactors/                               # Custom interactors (hand / ray / gaze etc.)
+?   ??? NativeKeyboard/                            # Native keyboard support
+?   ??? Simulation/                                # Input simulation subsystem
+?   ??? Subsystems/                                # Input subsystems (hand joint aggregation etc.)
+?   ??? Tests/                                     # Unit tests
+?   ??? Tracking/                                  # Tracking features
+?   ??? Utilities/                                 # Utility functions
+?   ??? Visualizers/                               # Input visualization
+?
+??? org.mixedrealitytoolkit.uxcore/                # [UX Core] Core scripts for MR UI components (v3.3.0-dev)
+?   ??? Button/                                    # Button core logic
+?   ??? DataBinding/                               # Data binding interfaces
+?   ??? Dialog/                                    # Dialog core
+?   ??? Editor/                                    # Editor extensions
+?   ??? Experimental/                              # Experimental UX features
+?   ??? FontIcons/                                 # Font icons
+?   ??? InputField/                                # Input field
+?   ??? Interop/                                   # Interop layer
+?   ??? Keyboard/                                  # Virtual keyboard core
+?   ??? LegacyDialog/                              # Legacy dialog
+?   ??? ObjectBar/                                 # Object toolbar
+?   ??? Pulse/                                     # Pulse effect
+?   ??? SeeItSayIt/                                # "See it, say it" voice labels
+?   ??? Slider/                                    # Slider core
+?   ??? StateVisualizer/                           # State visualizer
+?   ??? TabView/                                   # Tab view
+?   ??? Tests/                                     # Unit tests
+?   ??? Toggle/                                    # Toggle core
+?
+??? org.mixedrealitytoolkit.uxcomponents/           # [UX Components - Canvas] Canvas-based 3D UI library (v3.4.0-dev)
+?   ??? Button/                                    # Button prefabs
+?   ??? ButtonBar/                                 # Button bar
+?   ??? Dialog/                                    # Dialog prefabs
+?   ??? Editor/                                    # Editor extensions
+?   ??? Experimental/                              # Experimental components
+?   ??? HandMenu/                                  # Hand menu
+?   ??? InputField/                                # Input field prefabs
+?   ??? Keyboard/                                  # Virtual keyboard prefabs
+?   ??? NearMenu/                                  # Near menu
+?   ??? SeeItSayItLabel/                           # Voice labels
+?   ??? Slider/                                    # Slider prefabs
+?   ??? Tests/                                     # Unit tests
+?   ??? ToggleIndicators/                          # Toggle indicators
+?
+??? org.mixedrealitytoolkit.uxcomponents.noncanvas/ # [UX Components - NonCanvas] Non-Canvas 3D UI library (v3.1.5-dev)
+?   ??? Button/                                    # Non-Canvas buttons
+?   ??? ButtonGroup/                               # Button groups
+?   ??? Dialog/                                    # Non-Canvas dialogs
+?   ??? Experimental/                              # Experimental components
+?   ??? HandMenu/                                  # Hand menu
+?   ??? ListMenu/                                  # List menu
+?   ??? ObjectBar/                                 # Object toolbar
+?   ??? SeeItSayItLabel/                           # Voice labels
+?   ??? Slates/                                    # Slates / panels
+?   ??? Slider/                                    # Slider
+?   ??? Tests/                                     # Unit tests
+?   ??? Toggles/                                   # Toggle groups
+?
+??? org.mixedrealitytoolkit.spatialmanipulation/   # [Spatial Manipulation] Object manipulator / bounds control / solvers (v3.4.0-dev)
+?   ??? BoundsControl/                             # Bounds control (scale / rotate bounding box)
+?   ??? Constraints/                               # Manipulation constraint system
+?   ??? Editor/                                    # Editor extensions
+?   ??? ObjectManipulator/                         # Object manipulator (move / rotate / scale)
+?   ??? Solvers/                                   # Solver system (follow / orbital / surface magnetism etc.)
+?   ??? Tests/                                     # Unit tests
+?   ??? Utilities/                                 # Utility functions
+?
+??? org.mixedrealitytoolkit.audio/                 # [Audio] XR audio enhancement effects (v3.0.5-dev)
+?   ??? Effects/                                   # Audio effects
+?   ??? Tests/                                     # Unit tests
+?
+??? org.mixedrealitytoolkit.windowsspeech/         # [Speech] Windows native TTS + speech recognition (v3.0.4-dev)
+?   ??? Assets/                                    # Speech assets
+?   ??? Editor/                                    # Editor extensions
+?   ??? Subsystems/                                # Speech subsystem implementation
+?   ??? Tests/                                     # Unit tests
+?
+??? org.mixedrealitytoolkit.diagnostics/           # [Diagnostics] Performance monitoring & diagnostic tools (v3.0.3-dev)
+?   ??? Subsystems/                                # Diagnostic subsystems
+?   ??? Tests/                                     # Unit tests
+?   ??? Utilities/                                 # Utility functions
+?   ??? Visualizers/                               # Performance visualizers
+?
+??? org.mixedrealitytoolkit.data/                  # [Data] Data binding & theming (v1.0.3-dev, experimental)
+?   ??? Editor/                                    # Editor extensions
+?   ??? Runtime/                                   # Runtime data binding
+?   ??? Tests/                                     # Unit tests
+?
+??? org.mixedrealitytoolkit.accessibility/         # [Accessibility] Accessibility subsystem (v1.0.3-dev, early preview)
+?   ??? Assets/                                    # Accessibility assets
+?   ??? Editor/                                    # Editor extensions
+?   ??? Subsystems/                                # Accessibility subsystems
+?   ??? Tests/                                     # Unit tests
+?   ??? Utilities/                                 # Utility functions
+?
+??? org.mixedrealitytoolkit.standardassets/         # [Standard Assets] Common fonts / materials / models (v3.2.1-dev)
+?   ??? Audio/                                     # Common audio
+?   ??? Fonts/                                     # Common fonts
+?   ??? Icons/                                     # Icon sets
+?   ??? Materials/                                 # Common materials
+?   ??? Models/                                    # Common 3D models
+?   ??? Prefabs/                                   # Common prefabs
+?   ??? Shaders/                                   # Shaders
+?   ??? Tests/                                     # Unit tests
+?   ??? Textures/                                  # Common textures
+?
+??? org.mixedrealitytoolkit.extendedassets/         # [Extended Assets] Extra assets for examples / prototyping (v3.0.4-dev)
+?   ??? Animations/                                # Animation assets
+?   ??? Audio/                                     # Audio assets
+?   ??? Fonts/                                     # Font assets
+?   ??? Icons/                                     # Icon assets
+?   ??? Materials/                                 # Material assets
+?   ??? Models/                                    # Model assets
+?   ??? Prefabs/                                   # Prefabs
+?   ??? Tests/                                     # Unit tests
+?   ??? Textures/                                  # Texture assets
+?
+??? org.mixedrealitytoolkit.tools/                 # [Tools] Editor tools & wizards (v3.0.5-dev)
+?   ??? SubsystemWizard/                           # Subsystem creation wizard
+?   ??? Tests/                                     # Unit tests
+?
+??? UnityProjects/
+?   ??? MRTKDevTemplate/                           # Main Unity project (2021.3.45f2, URP)
+?       ??? Assets/
+?       ?   ??? Analyzers/                         # Code analyzers (Microsoft.Unity.Analyzers)
+?       ?   ??? Animations/                        # Animation assets (clipping animations etc.)
+?       ?   ??? AssetStoreTools/                   # Asset Store tools
+?       ?   ??? Audio/                             # Audio assets (mixer etc.)
+?       ?   ??? BuildAssets/                       # Build scripts & icons
+?       ?   ??? Cosmic_Retro_Laboratory_Props_Demo/# Third-party model asset pack
+?       ?   ??? Data Binding Example/              # Data binding example
+?       ?   ??? Editor/                            # Editor tool scripts
+?       ?   ?   ??? BatchAddMRTKComponents.cs      #   Batch add MRTK components
+?       ?   ?   ??? BulkLinkUIScript.cs            #   Bulk link UI scripts
+?       ?   ?   ??? FitCollidersWithUndo.cs        #   Fit colliders with undo support
+?       ?   ?   ??? makeController.cs              #   Controller generator
+?       ?   ?   ??? OrganRenameTool.cs             #   Organ rename tool
+?       ?   ?   ??? SyncSubObjectNames.cs          #   Sync sub-object names
+?       ?   ??? Example Assets/                    # Example assets (whiteboard material etc.)
+?       ?   ??? Fonts/                             # Fonts (Montserrat)
+?       ?   ??? FullSerializer/                    # JSON serialization library
+?       ?   ??? ImportedAssets/                    # Third-party imported assets
+?       ?   ?   ??? AdjustPivot/                   #   Pivot adjustment tool
+?       ?   ?   ??? Borderless/                    #   Borderless window
+?       ?   ?   ??? ColorHierarchy/                #   Hierarchy color labels
+?       ?   ?   ??? Free HDR Skyboxes Pack/        #   HDR skyboxes
+?       ?   ?   ??? PlayerPrefsEditor/             #   PlayerPrefs editor
+?       ?   ?   ??? ToDoList/                      #   To-do list plugin
+?       ?   ?   ??? Unity-Logs-Viewer/             #   Log viewer
+?       ?   ?   ??? Unity-UI-Rounded-Corners/      #   Rounded corner UI
+?       ?   ??? Materials/                         # Material assets
+?       ?   ??? Models/                            # 3D models (anatomy models etc.)
+?       ?   ?   ??? 1.0 Materials/                 #   Model materials
+?       ?   ?   ??? 1.0 Models/                    #   Base models
+?       ?   ?   ??? ana/                           #   Anatomy models
+?       ?   ?   ??? anatomy.fbx                    #   Anatomy FBX
+?       ?   ?   ??? MuscularSystem100.fbx          #   Muscular system model
+?       ?   ?   ??? ShaderBall.FBX                 #   Shader ball
+?       ?   ??? MRTK.Generated/                    # MRTK auto-generated config
+?       ?   ??? Parse/                             # Parse SDK (networking / data)
+?       ?   ??? Plugins/                           # Plugins
+?       ?   ?   ??? Outline.Core/                  #   Outline rendering core
+?       ?   ?   ??? Outline.URP/                   #   Outline rendering URP adapter
+?       ?   ??? Prefabs/                           # Prefabs
+?       ?   ?   ??? BoundsControl/                 #   Bounds control prefabs
+?       ?   ?   ??? CanvasExample/                 #   Canvas examples
+?       ?   ?   ??? EyeTrackingExamples/           #   Eye tracking examples
+?       ?   ?   ??? MagicWindow/                   #   Magic window
+?       ?   ?   ??? ObjectManipulator/             #   Object manipulator prefabs
+?       ?   ?   ??? SpatialMesh/                   #   Spatial mesh
+?       ?   ?   ??? Whiteboard/                    #   Whiteboard
+?       ?   ?   ??? EventSystem.prefab             #   Event system
+?       ?   ??? Profiles/                          # Configuration profiles
+?       ?   ??? Resources/                         # Runtime resources
+?       ?   ??? RestClient/                        # REST API client library
+?       ?   ??? Scenes/                            # Scenes (38 example / feature scenes)
+?       ?   ?   ??? Audio/                         #   Audio scenes
+?       ?   ?   ??? EmptyScene/                    #   Empty scene template
+?       ?   ?   ??? Experimental/                  #   Experimental scenes
+?       ?   ?   ??? EyeTracking/                   #   Eye tracking scenes
+?       ?   ?   ??? BoundsControlExamples.unity    #   Bounds control example
+?       ?   ?   ??? CanvasExample.unity            #   Canvas UI example
+?       ?   ?   ??? DialogExample.unity            #   Dialog example
+?       ?   ?   ??? EyeGazeExample.unity           #   Eye gaze example
+?       ?   ?   ??? HandInteractionExamples.unity  #   Hand interaction example
+?       ?   ?   ??? HandMenuExamples.unity         #   Hand menu example
+?       ?   ?   ??? SolverExamples.unity           #   Solver example
+?       ?   ?   ??? ... (38 scenes total)
+?       ?   ??? Scripts/                           # Project custom scripts (189 C# files)
+?       ?   ?   ??? Backend/                       #   Backend / networking logic
+?       ?   ?   ??? Base/                          #   Base classes
+?       ?   ?   ??? BaseClasses/                   #   Base class definitions
+?       ?   ?   ??? Bonus Collections/             #   Extra collection utilities
+?       ?   ?   ??? Collections/                   #   Collection management
+?       ?   ?   ??? Commands/                      #   Command pattern implementation
+?       ?   ?   ??? CrossSections/                 #   Cross-section / clipping features
+?       ?   ?   ??? Debug/                         #   Debug tools
+?       ?   ?   ??? Descriptions/                  #   Description / annotation system
+?       ?   ?   ??? EyeTracking/                   #   Eye tracking logic
+?       ?   ?   ??? ImportModels/                  #   Model importing
+?       ?   ?   ??? Lexicon/                       #   Lexicon / terminology system
+?       ?   ?   ??? Management/                    #   Managers
+?       ?   ?   ??? Movement/                      #   Movement / motion control
+?       ?   ?   ??? Neumorphism/                   #   Neumorphism UI effects
+?       ?   ?   ??? Notes/                         #   Notes / annotation features
+?       ?   ?   ??? Pencil/                        #   Pencil / drawing tools
+?       ?   ?   ??? Selection/                     #   Selection system
+?       ?   ?   ??? UI/                            #   UI logic
+?       ?   ?   ??? Utils/                         #   Utility functions
+?       ?   ??? Shaders/                           # Shaders
+?       ?   ??? StreamingAssets/                   # Streaming assets
+?       ?   ??? test/                              # Test prefabs (anatomy system models)
+?       ?   ??? Textures/                          # Texture assets
+?       ?   ??? UX Theming Example/                # UX theming example
+?       ?   ??? XR/                                # XR config (OpenXR / XR Management)
+?       ?   ??? XRI/                               # XR Interaction Toolkit settings
+?       ??? Packages/
+?       ?   ??? manifest.json                      # Package manifest (14 MRTK + Unity / third-party packages)
+?       ?   ??? packages-lock.json                 # Package lock file
+?       ??? ProjectSettings/                       # Unity project settings
+?       ??? plans/
+?           ??? research_and_development.md        # R&D plan document
+?
+??? Pipelines/                                     # CI/CD pipelines
+?   ??? Config/                                    # Configuration files
+?   ??? Scripts/                                   # Build scripts
+?   ??? Templates/                                 # Pipeline templates
+?   ??? UPM/                                       # UPM publishing config
+?   ??? ci.yaml                                    # Continuous integration pipeline
+?   ??? pr.yaml                                    # PR check pipeline
+?   ??? rc.yaml                                    # Release candidate pipeline
+?
+??? Tooling/                                       # Development tools
+?   ??? Test/                                      # Test tools
+?   ??? create-assemblyinfo.ps1                    # Assembly info generation script
+?   ??? find-guids.ps1                             # GUID lookup script
+?
+??? contributions/                                 # Contribution guidelines
+?   ??? code-contributions.md
+?   ??? code-owners.md
+?   ??? merging-pull-requests.md
+?   ??? opening-and-assessing-issues.md
+?   ??? project-tenets.md
+?   ??? versioning-and-releases.md
+?
+??? docs/                                          # Documentation
+?   ??? mrtk3-overview/                            # MRTK3 overview
+?
+??? images/                                        # Project images
+?
+??? .editorconfig                                  # Editor configuration
+??? cgmanifest.json                                # Third-party component manifest
+??? CODE_OF_CONDUCT.md                             # Code of conduct
+??? CODEOWNERS                                     # Code owners
+??? CONTRIBUTING.md                                # Contributing guide
+??? DEPENDS.md                                     # Dependencies
+??? GOVERNANCE.md                                  # Governance document
+??? LICENSE.md                                     # License (BSD 3-Clause)
+??? MAINTAINERS.md                                 # Maintainers list
+??? README.md                                      # Project readme
+
+================================================================================
+Tech Stack Summary
+================================================================================
+
+Engine:             Unity 2021.3.45f2 (LTS)
+Language:           C#
+Render Pipeline:    URP (Universal Render Pipeline) 12.1.15
+XR Framework:       OpenXR 1.13.0 + XR Interaction Toolkit 2.6.3
+MR Platform:        Microsoft Mixed Reality OpenXR 1.11.2
+AR:                 AR Foundation + ARCore 5.0.5
+Hand Tracking:      Unity XR Hands 1.3.0
+Input System:       Unity Input System 1.7.0
+Graphics Tools:     MRTK Graphics Tools 0.8.0
+Spatial Audio:      Microsoft Spatial Audio 2.0.55
+3D Import:          glTFast 6.10.1
+UI Text:            TextMeshPro 3.0.6
+JSON:               Newtonsoft JSON + FullSerializer
+Outline Rendering:  UnityFx.Outline (Core + URP)
+License:            BSD 3-Clause
+
+================================================================================
+Module Dependency Graph
+================================================================================
+
+core ????? input ???? spatialmanipulation ????? uxcore ????? uxcomponents
+       ?                                    ?           ??? uxcomponents.noncanvas
+       ??? audio                            ?
+       ??? diagnostics                      ?
+       ??? data ????????????????????????????? (optional)
+       ??? accessibility
+       ??? windowsspeech
+       ??? tools
+
+standardassets ?? extendedassets

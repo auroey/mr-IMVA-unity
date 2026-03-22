@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: dcc6ce8a1ec13034889ad62a20065dc1
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Artery
+    second: {fileID: 2100000, guid: 33a27a8b73bdd3c4d8841e0391a2e7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone_1
+    second: {fileID: 2100000, guid: 73179b36af63c6840bf84e9c8431c99f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bone_4
+    second: {fileID: 2100000, guid: 5efc0f08352dcca489efacbe95ab3a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brain
+    second: {fileID: 2100000, guid: 3d28ab6d747bd7b478ba42737df75fd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brain_Inner
+    second: {fileID: 2100000, guid: f6009f20aacebe248b6a43a13f516e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cartilage
+    second: {fileID: 2100000, guid: 68efc7ca32943c24abe9d4b6b3fc955e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cerebellum
+    second: {fileID: 2100000, guid: 5258a1f9a0ed13642963cac10728192f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cornea
+    second: {fileID: 2100000, guid: b6b4621ea4ebb7249bbcaf154d311b22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: 24c73b266213d93458ef48db0004bd8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fascia
+    second: {fileID: 2100000, guid: c0bc4596aa1158b419d33cb69e742949, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_Lobe
+    second: {fileID: 2100000, guid: 0bd6fa240e403b64fafe2b74286617de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gland
+    second: {fileID: 2100000, guid: 4400fdbac2c92ae4bae4583ab3f7aef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Insula
+    second: {fileID: 2100000, guid: 29100eae374464348b44ee05523333cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interlobar_sulci
+    second: {fileID: 2100000, guid: 18f462158ef91084d8e3a7b86df90433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Iris
+    second: {fileID: 2100000, guid: c913b886ac0657b43bbbd45b772ee1ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCR
+    second: {fileID: 2100000, guid: 005f54e254164a14ea97fbf7f5df0e36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ligament
+    second: {fileID: 2100000, guid: df6e376c39997af4580b3881068bf4e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Limbic_lobe
+    second: {fileID: 2100000, guid: ca50a83e9f5263f4bb9c32d127b93bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mucosa
+    second: {fileID: 2100000, guid: 44f024bbf04230246978561ed2a24ed0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve
+    second: {fileID: 2100000, guid: 04c6b93df703e334d8178e009ebf2215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_1
+    second: {fileID: 2100000, guid: 02b00009dfb936e43b1daaa5aa792c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_2
+    second: {fileID: 2100000, guid: 34f4d1275b1efbb4da229bac2bf6cfc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_3
+    second: {fileID: 2100000, guid: 606351ee1e60cab4da558ff8b536dee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_4
+    second: {fileID: 2100000, guid: 504333c6d87f0f94f9c37ccbe6c072d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_5
+    second: {fileID: 2100000, guid: 35f218f275c957545981237e57716117, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_6
+    second: {fileID: 2100000, guid: 505d0b154a30ce94085235febd70c24a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nerve_7
+    second: {fileID: 2100000, guid: 5ce8e039d3ef47145858981d2f2850a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nucleus
+    second: {fileID: 2100000, guid: 14759dfb94aee0342a370765a36ffd71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nucleus_afferent
+    second: {fileID: 2100000, guid: 5cf4186a712d5c441819290b44a4d3d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nucleus_efferent_1
+    second: {fileID: 2100000, guid: acaff2964051b5b449a650aada3dedd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Occipital_lobe
+    second: {fileID: 2100000, guid: 95ec98b4055dbeb409527da3a689e1ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Orbicularis_Constrictor
+    second: {fileID: 2100000, guid: 062c1b0c9072e3846904b88914b646be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parietal_lobe
+    second: {fileID: 2100000, guid: 38fe4b2b046cf8649a5646fd052ec213, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temporal_lobe
+    second: {fileID: 2100000, guid: 4a1866c0b1602bb499d74cf9d5b4a3a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White_matter
+    second: {fileID: 2100000, guid: 6f8833cd1dac9aa4d9262ef20578244d, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
