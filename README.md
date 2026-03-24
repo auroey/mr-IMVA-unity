@@ -1,10 +1,104 @@
-# Mixed Reality Anatomy Project
+# IMVA
 
-A mixed reality anatomy learning and interaction application built with **Unity 2021.3.45f2 LTS** and **MRTK3** (Mixed Reality Toolkit 3).
+IMVA is an interactive mixed reality anatomy learning project built with Unity and MRTK3 for immersive education and training scenarios.
 
-This repository contains the full MRTK3 source alongside the Unity project, so all local package references resolve out of the box — no extra downloads needed.
+![IMVA runtime screenshot in PC](./docs/images/simpleScreenshot.png)
 
-## Tech Stack
+# Background and Features
+
+## Why this project
+
+Traditional anatomy learning often lacks spatial depth and interaction. This project explores a mixed reality workflow where users can inspect, select, and manipulate anatomy content in 3D space with natural input.
+
+## Core features
+
+- Mixed reality anatomy exploration with MRTK3 interaction patterns.
+- Selection, clipping, and cross-section related interaction workflows.
+- Custom UI and editor tooling for scene and workflow iteration.
+- Multi-platform deployment path (HoloLens / Android XR pipelines).
+
+# Quick Start
+
+This section is designed so you can open and run the project with minimal setup.
+
+## Requirements
+
+- Windows/macOS with Unity Hub installed
+- **Unity 2021.3.45f2 LTS**
+- Optional modules (recommended):
+  - Universal Windows Platform Build Support (HoloLens 2)
+  - Android Build Support (Quest / Android XR)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/auroey/mr-IMVA-unity.git
+```
+
+2. Open **Unity Hub** -> **Add** -> select:
+
+```text
+UnityProjects/MRTKDevTemplate
+```
+
+3. Open the scene:
+
+```text
+Assets/Scenes/EmptyScene/my.unity
+```
+
+4. Press Play in Unity Editor.
+
+# Usage
+
+## Common workflows
+
+- **Open project**: `UnityProjects/MRTKDevTemplate`
+- **Main scene entry**: `Assets/Scenes/EmptyScene/my.unity`
+- **Custom runtime logic**: `Assets/Scripts/`
+- **Editor tooling**: `Assets/Editor/`
+
+## Configuration
+
+- Unity packages are managed in `UnityProjects/MRTKDevTemplate/Packages/manifest.json`.
+- Project-wide settings live under `UnityProjects/MRTKDevTemplate/ProjectSettings/`.
+- For reproducible environments, keep Unity version pinned to `2021.3.45f2`.
+
+## Online dependencies
+
+On first open, Unity will resolve external packages from Unity Registry and GitHub, so network access is required. Important dependencies include:
+
+- `com.microsoft.mixedreality.openxr` (1.11.2)
+- `com.microsoft.mixedreality.visualprofiler` (GitHub v2.2.0)
+- `com.microsoft.mrtk.graphicstools.unity` (0.8.0)
+- `com.microsoft.mrtk.tts.windows` (1.0.4)
+- `com.microsoft.spatialaudio.spatializer.unity` (2.0.55)
+- `com.unity.*` packages (URP, Input System, TextMeshPro, etc.)
+
+# Architecture and Tech Stack
+
+## Key repository structure
+
+```text
+.
+├── UnityProjects/
+│   └── MRTKDevTemplate/               # Unity project root
+│       ├── Assets/
+│       │   ├── Scripts/               # Runtime/game logic
+│       │   ├── Editor/                # Editor tools
+│       │   ├── Scenes/                # Scene assets
+│       │   └── Models/                # Anatomy and other 3D assets
+│       ├── Packages/manifest.json     # Unity package dependencies
+│       └── ProjectSettings/           # Unity project settings
+├── org.mixedrealitytoolkit.*          # MRTK3 local source packages
+├── Pipelines/                         # CI/CD related configs
+├── Tooling/                           # Utility scripts and tools
+└── docs/                              # Documentation
+```
+
+## Tech stack
 
 | Component | Version |
 |---|---|
@@ -23,103 +117,58 @@ This repository contains the full MRTK3 source alongside the Unity project, so a
 | JSON | Newtonsoft JSON + FullSerializer |
 | Outline | UnityFx.Outline (Core + URP) |
 
-## Getting Started
+## MRTK3 module dependency sketch
 
-### Prerequisites
+```text
+core -> input -> spatialmanipulation -> uxcore -> uxcomponents
+   |                                   \-> uxcomponents.noncanvas
+   +-> audio
+   +-> diagnostics
+   +-> data (optional)
+   +-> accessibility
+   +-> windowsspeech
+   \-> tools
 
-- **Unity 2021.3.45f2** (install via [Unity Hub](https://unity.com/download))
-- **Universal Windows Platform Build Support** module (if deploying to HoloLens 2)
-- **Android Build Support** module (if deploying to Quest / Android XR)
+standardassets -> extendedassets
+```
 
-### Setup
+# FAQ / Troubleshooting
 
-1. Clone this repository:
+## Package resolution failed on first open
+
+- Confirm internet connectivity and proxy settings.
+- Re-open Unity Hub and relaunch the project to retry package restore.
+- Verify access to GitHub and Unity package registry endpoints.
+
+## Scene cannot be opened or references are missing
+
+- Ensure project root is `UnityProjects/MRTKDevTemplate` (not repository root).
+- Confirm Unity version is exactly `2021.3.45f2`.
+- Let Unity finish initial package import before opening scenes.
+
+## Build target issues (HoloLens / Android XR)
+
+- Install required Unity modules for the target platform in Unity Hub.
+- Check XR/OpenXR package versions and target platform settings in Project Settings.
+
+# Contributing / Development
+
+Contributions are welcome. For smooth collaboration:
+
+1. Fork and create a feature branch:
 
 ```bash
-git clone https://github.com/auroey/mr-anatomy-education-mrtk3-cpp.git
+git checkout -b feature/your-feature-name
 ```
 
-2. Open **Unity Hub** → **Add** → select `UnityProjects/MRTKDevTemplate` as the project folder.
+2. Keep changes focused and test in Unity Editor before opening a PR.
+3. Write clear commit messages (recommended: Conventional Commits).
+4. Open a Pull Request with:
+   - what changed
+   - why it changed
+   - how it was tested
 
-3. Open the secne in `.\Assets\Scenes\EmptyScene\my.unity` to enter the main scene.
+# License and Acknowledgements
 
-### Online Dependencies
-
-The following packages are fetched from the Unity registry / GitHub on first open — a network connection is required:
-
-- `com.microsoft.mixedreality.openxr` (1.11.2)
-- `com.microsoft.mixedreality.visualprofiler` (GitHub v2.2.0)
-- `com.microsoft.mrtk.graphicstools.unity` (0.8.0)
-- `com.microsoft.mrtk.tts.windows` (1.0.4)
-- `com.microsoft.spatialaudio.spatializer.unity` (2.0.55)
-- All `com.unity.*` official packages (URP, Input System, TextMeshPro, etc.)
-
-If package resolution fails, check your network or proxy configuration.
-
-## Repository Structure
-
-```
-.
-├── org.mixedrealitytoolkit.accessibility/      # MRTK3 - Accessibility
-├── org.mixedrealitytoolkit.audio/              # MRTK3 - Audio effects
-├── org.mixedrealitytoolkit.core/               # MRTK3 - Core
-├── org.mixedrealitytoolkit.data/               # MRTK3 - Data binding & theming
-├── org.mixedrealitytoolkit.diagnostics/        # MRTK3 - Diagnostics
-├── org.mixedrealitytoolkit.extendedassets/      # MRTK3 - Extended assets
-├── org.mixedrealitytoolkit.input/              # MRTK3 - Input
-├── org.mixedrealitytoolkit.spatialmanipulation/ # MRTK3 - Spatial manipulation
-├── org.mixedrealitytoolkit.standardassets/      # MRTK3 - Standard assets
-├── org.mixedrealitytoolkit.tools/              # MRTK3 - Editor tools
-├── org.mixedrealitytoolkit.uxcomponents/        # MRTK3 - UX Components (Canvas)
-├── org.mixedrealitytoolkit.uxcomponents.noncanvas/ # MRTK3 - UX Components (Non-Canvas)
-├── org.mixedrealitytoolkit.uxcore/             # MRTK3 - UX Core
-├── org.mixedrealitytoolkit.windowsspeech/       # MRTK3 - Windows Speech
-│
-├── UnityProjects/
-│   └── MRTKDevTemplate/                        # ★ Unity project root
-│       ├── Assets/
-│       │   ├── Scripts/        # Custom scripts (189 C# files)
-│       │   │   ├── Backend/    #   Backend / networking
-│       │   │   ├── UI/         #   UI logic
-│       │   │   ├── Selection/  #   Selection system
-│       │   │   ├── CrossSections/ # Cross-section / clipping
-│       │   │   ├── EyeTracking/#   Eye tracking
-│       │   │   ├── Movement/   #   Motion control
-│       │   │   ├── Pencil/     #   Drawing tools
-│       │   │   └── ...
-│       │   ├── Editor/         # Custom editor tools
-│       │   ├── Scenes/         # 38 scenes
-│       │   ├── Prefabs/        # Prefabs
-│       │   ├── Models/         # 3D models (anatomy)
-│       │   ├── Materials/      # Materials
-│       │   ├── Shaders/        # Shaders
-│       │   ├── Textures/       # Textures
-│       │   ├── Plugins/        # Third-party plugins (Outline)
-│       │   └── ImportedAssets/ # Imported tools & assets
-│       ├── Packages/
-│       │   └── manifest.json   # Package manifest
-│       └── ProjectSettings/    # Unity project settings
-│
-├── Pipelines/                  # CI/CD pipeline configs
-├── Tooling/                    # Dev tools & scripts
-└── docs/                       # MRTK3 documentation
-```
-
-## MRTK3 Module Dependency Graph
-
-```
-core ───── input ──── spatialmanipulation ───── uxcore ───── uxcomponents
-       │                                    │           └── uxcomponents.noncanvas
-       ├── audio                            │
-       ├── diagnostics                      │
-       ├── data ─────────────────────────── (optional)
-       ├── accessibility
-       ├── windowsspeech
-       └── tools
-
-standardassets ── extendedassets
-```
-
-## License
-
-MRTK3 is licensed under the [BSD 3-Clause License](./LICENSE.md).
+- This project includes MRTK3-related components and is distributed under the [BSD 3-Clause License](./LICENSE.md).
+- Thanks to the Unity and MRTK ecosystem maintainers and contributors.
