@@ -192,19 +192,18 @@ git checkout -b feature/your-feature-name
 - Thanks to the Unity and MRTK ecosystem maintainers and contributors.
 - This project is the code repository for my undergraduate graduation thesis, and it is the engineering work most aligned with my interests during my undergraduate years. I would like to place a closing passage from my thesis here.
 
-```
-As the thesis is finalized, outside the window in Dundee, there remain the orange sunset, the lush green grass, and the eaves with resting pigeons. I unavoidably fall into the familiar pattern of feeling a multitude of emotions; there are too many thanks worthy of me solemnly writing into the front pages of this thesis.  
-（论文定稿之际，邓迪的窗外依旧是昏黄的落日、葱绿的草地与鸽群驻留的屋檐。我不免落俗地感慨万千，有太多感谢值得我郑重地写在正文之前。）
 
-First, I sincerely thank my supervisor, Dr. Cheng Wei. To me, he is not only a supervisor who gave me rigorous guidance in academics and helped me clarify my research ideas, but also a benevolent elder, who always gave me patient direction and selfless help.  
-（首先，衷心感谢我的导师，Dr. Cheng Wei。于我而言，他不仅在学术上给予我严谨指导、帮我理清研究思路，更是一位仁厚的长辈、给予我耐心的指引与无私的帮助。）
+> As the thesis is finalized, outside the window in Dundee, there remain the orange sunset, the lush green grass, and the eaves with resting pigeons. I unavoidably fall into the familiar pattern of feeling a multitude of emotions; there are too many thanks worthy of me solemnly writing into the front pages of this thesis.  
+> 论文定稿之际，邓迪的窗外依旧是昏黄的落日、葱绿的草地与鸽群驻留的屋檐。我不免落俗地感慨万千，有太多感谢值得我郑重地写在正文之前。
 
-I thank my family and friends, who gave me their company and unreserved support when I was lonely; I thank every building during my university time, every wildly growing tree, and every gust of wind that blew past me; I thank fate for its kindness, and myself who never felt hopeless.  
-（感谢亲人与挚友，在我落寞时给予我陪伴与毫无保留的支持；感谢大学时光里的每一栋建筑，每一棵肆意生长的树，以及每一阵吹拂过我的风；感谢命运的温柔以待，也感谢那个未曾放弃的自己。）
+> First, I sincerely thank my supervisor, Dr. Cheng Wei. To me, he is not only a supervisor who gave me rigorous guidance in academics and helped me clarify my research ideas, but also a benevolent elder, who always gave me patient direction and selfless help.  
+> 首先，衷心感谢我的导师，Dr. Cheng Wei。于我而言，他不仅在学术上给予我严谨指导、帮我理清研究思路，更是一位仁厚的长辈、给予我耐心的指引与无私的帮助。
 
-Hereafter, I will carry this goodwill and continue to move forward, walking from one moon to another.  
-（此后我便要怀着这些善意继续前行，从一个月亮走向另一个月亮。）
+> I thank my family and friends, who gave me their company and unreserved support when I was lonely; I thank every building during my university time, every wildly growing tree, and every gust of wind that blew past me; I thank fate for its kindness, and myself who never felt hopeless.  
+> 感谢亲人与挚友，在我落寞时给予我陪伴与毫无保留的支持；感谢大学时光里的每一栋建筑，每一棵肆意生长的树，以及每一阵吹拂过我的风；感谢命运的温柔以待，也感谢那个未曾放弃的自己。
+
+> Hereafter, I will carry this goodwill and continue to move forward, walking from one moon to another.  
+> 此后我便要怀着这些善意继续前行，从一个月亮走向另一个月亮。
 
 > May all that we do yield gains, and may all farewells lead to reunions.  
-> （愿我们的所作皆有所得，愿所有的道别都走向重逢。）
-```
+> 愿我们的所作皆有所得，愿所有的道别都走向重逢。
