@@ -4,21 +4,12 @@
 
 IMVA is an interactive mixed reality anatomy learning project built with Unity and MRTK3 for immersive education and training scenarios.
 
-![IMVA runtime screenshot in PC](./docs/images/simpleScreenshot.png)
-
 ## Visual Showcase
 
-### Information Display
-![Selected anatomy part info panel](./docs/images/selected-part-info-panel.png)
-![System isolation info view](./docs/images/system-isolation-info-view.png)
-
-### Interaction Controls
-![Near interaction layer toggle highlight](./docs/images/near-interaction-layer-toggle-highlight.png)
-![Far pinch transform manipulation](./docs/images/far-pinch-transform-manipulation.png)
-![Far pinch scale control](./docs/images/far-pinch-scale-control.png)
-
-### Spatial Exploration
-![Draggable multi-angle anatomy view](./docs/images/draggable-multi-angle-anatomy-view.png)
+| | | |
+|---|---|---|
+| <img src="./docs/images/selected-part-info-panel.png" alt="Selected anatomy part info panel" width="100%" /> | <img src="./docs/images/system-isolation-info-view.png" alt="System isolation info view" width="100%" /> | <img src="./docs/images/near-interaction-layer-toggle-highlight.png" alt="Near interaction layer toggle highlight" width="100%" /> |
+| <img src="./docs/images/far-pinch-transform-manipulation.png" alt="Far pinch transform manipulation" width="100%" /> | <img src="./docs/images/far-pinch-scale-control.png" alt="Far pinch scale control" width="100%" /> | <img src="./docs/images/draggable-multi-angle-anatomy-view.png" alt="Draggable multi-angle anatomy view" width="100%" /> |
 
 These screenshots demonstrate key workflows: anatomy name/description display, system isolation by hiding unrelated parts, near-interaction layer toggles with fingertip highlight feedback, far-pinch manipulation for translation/rotation/scale, and free spatial inspection from multiple VR viewing angles.
 
